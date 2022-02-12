@@ -1,0 +1,83 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,900);  /* <-- Just for the demo, Yes I like pretty fonts... */
+
+.square {
+    float:left;
+    position: relative;
+    width: 30%;
+    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+    margin:1.66%;
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
+}
+
+.img_1-1{background-image:url('../images/j1.JPG');}
+.img_1-2{background-image:url('../images/j4.JPG');}
+.img_1-3{background-image:url('../images/j5.JPG');}
+
+.img_2-1{background-image:url('../images/j6.JPG');}
+.img_2-2{background-image:url('../images/j7.JPG');}
+.img_2-3{background-image:url('../images/j8.JPG');}
+
+.img_3-1{background-image:url('../images/j9.JPG');}
+.img_3-2{background-image:url('../images/j10.JPG');}
+.img_3-3{background-image:url('../images/j11.JPG');}
+
+.img_4-1{background-image:url('../images/j12.JPG');}
+.img_4-2{background-image:url('../images/j13.JPG');}
+.img_4-3{background-image:url('../images/j14.JPG');}
+
+.img_5-1{background-image:url('../images/j15.JPG');}
+.img_5-2{background-image:url('../images/j16.JPG');}
+.img_5-3{background-image:url('../images/j17.JPG');}
+
+.img_6-1{background-image:url('../images/j18.JPG');}
+.img_6-2{background-image:url('../images/j19.JPG');}
+.img_6-3{background-image:url('../images/j20.JPG');}
+
+.img_7-1{background-image:url('../images/j21.JPG');}
+.img_7-2{background-image:url('../images/j22.JPG');}
+.img_7-3{background-image:url('../images/j23.JPG');}
+
+.img_8-1{background-image:url('../images/j24.JPG');}
+.img_8-2{background-image:url('../images/j25.JPG');}
+/*  following just for the demo */
+
+
+body {
+    font-size:20px;
+    font-family: 'Lato',verdana, sans-serif;
+    color: #fff;
+    text-align:center;
+    background:#ECECEC;
+}
+
+#bottom {
+    clear:both;
+    margin:0 1.66%;
+    width:89.68%;
+    padding: 3.5%;
+    background-color:#1E1E1E;
+    color: #fff;
+}
+#bottom p{
+    text-align:center;
+    line-height:2em;
+}
+#bottom a{
+    color: #000;
+    text-decoration:none;
+    border:1px solid #000;
+    padding:10px 20px 12px;
+    line-height:70px;
+    background:#ccc;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#bottom a:hover{
+    background:#ECECEC;
+    border:1px solid #fff;
+}
