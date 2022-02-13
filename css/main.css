@@ -36,10 +36,27 @@ a:hover {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
     letter-spacing: 2px; 
   }
+
+  .trash {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .trash2 {
+    max-height: 600px;
+    /* width: auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+
 .ww-home-page .ww-wedding-announcement .ww-announcement-container {
-    max-width: 600px;
+    justify-content: center !important;
+    max-width: 500px;
     text-align: center;
-    margin-left: 0;
+    margin-left: 1000;
     z-index: 999; 
   }
 .ww-home-page .ww-wedding-announcement img {
@@ -52,7 +69,7 @@ a:hover {
     width: auto; } 
   }
 .ww-home-page .ww-wedding-announcement .ww-couple-name {
-    font-size: 70px; 
+    font-size: 65px; 
   }
 @media (max-width: 576px) {
     .ww-home-page .ww-wedding-announcement .ww-couple-name {
